@@ -114,9 +114,6 @@ def image_to_text(image_path):
 
 st.set_page_config(layout='wide')
 
-with open(f'instructions.txt', 'r') as file:
-    # Read the contents of the file
-    instructions = file.read()
 assistant_name='Chivo de cinematograaf'
 
 picture = st.camera_input(".")
